@@ -1,31 +1,79 @@
 .Mercúrio {
-    width: 58px;
+  width: 58px;
+  transition: 0.5s;
+}
+
+.Mercúrio:hover {
+  width: 78px;
+  transition: 0.5s;
 }
 
 .Vênus {
-    width: 131px;
+  width: 131px;
+  transition: 0.5s;
+}
+
+.Vênus:hover {
+  width: 141px;
+  transition: 0.5s;
 }
 
 .Terra {
   width: 137px;
+  transition: 0.5s;
+}
+
+.Terra:hover {
+  width: 147px;
+  transition: 0.5s;
 }
 
 .Marte {
   width: 77px;
+  transition: 0.5s;
+}
+
+.Marte:hover {
+  width: 97px;
+  transition: 0.5s;
 }
 
 .Júpiter {
-    width: 282px;
+  width: 282px;
+  transition: 0.5s;
+}
+
+.Júpiter:hover {
+  width: 292px;
+  transition: 0.5s;
 }
 
 .Saturno {
-    width: 292px;
+  width: 292px;
+  transition: 0.5s;
+}
+
+.Saturno:hover {
+  width: 302px;
+  transition: 0.5s;
 }
 
 .Urano {
-    width: 154px;
+  width: 154px;
+  transition: 0.5s;
+}
+
+.Urano:hover {
+  width: 164px;
+  transition: 0.5s;
 }
 
 .Netuno {
-    width: 154px;
+  width: 154px;
+  transition: 0.5s;
+}
+
+.Netuno:hover {
+  width: 164px;
+  transition: 0.5s;
 }
