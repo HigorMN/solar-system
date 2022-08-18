@@ -1,3 +1,11 @@
-.App {
-  text-align: center;
+* {
+  margin: auto;
+  padding: auto;
+}
+
+body {
+  background-image: url(./images/background2.png);
+  background-repeat: no-repeat;
+  background-size: contain;
+  color: white;
 }
