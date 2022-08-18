@@ -7,7 +7,6 @@ body {
   background-image: url(./images/background2.png);
   background-attachment: fixed;
   background-size: 100%;
-  background-repeat: no-repeat;
   color: white;
   text-align: center;
   font-family: monospace;
@@ -35,13 +34,15 @@ h2 {
 
 .solar ul {
   display: flex;
-  flex-wrap: wrap;
-  border: 20px solid black;
-  height: 330px;
+  max-width: 100%;
 }
 
-.solar img {
-  width: 50px;
+.solar p {
+  background-color: rgba(0, 0, 0, 0.6);
+  border-radius: 5px;
+  border: 1px solid rgba(255, 255, 255, 0.6);
+  padding: 3px;
+  width: 90px;
 }
 
 
