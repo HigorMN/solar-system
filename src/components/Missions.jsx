@@ -17,7 +17,7 @@ const lista = missions.map(({ name, year, country, destination }) => (
 class Missions extends React.Component {
   render() {
     return (
-      <div data-testid="missions">
+      <div data-testid="missions" className="missions">
         <Title headline="Missões" />
         <ul>{lista}</ul>
       </div>

@@ -8,7 +8,7 @@ body {
   background-attachment: fixed;
   background-size: 100%;
   background-blend-mode: multiply;
-  background-color: rgba(0, 0, 0, 0.3);
+  background-color: rgba(0, 0, 0, 0.4);
   color: white;
   text-align: center;
   font-family: monospace;
@@ -65,4 +65,49 @@ h2 {
   transform: rotate(20deg);
 }
 
+.missions ul {
+  display: flex;
+  flex-wrap: wrap;
+  width: 70%;
+}
 
+.missions li {
+  margin: 20px auto;
+  width: 300px;
+  height: 260px;
+  border: 1px solid rgba(255, 255, 255, 0.6);
+  border-radius: 15px;
+  background-color: rgba(0, 0, 0, 0.7);
+  transition: 0.5s;
+}
+
+.missions li:hover {
+  border: 2px solid #025be9;
+  transition: 0.5s;
+  background-color: rgba(0, 0, 0, 0.9);
+}
+
+.missions li:hover .name {
+  border-bottom: 2px solid #025be9;
+  transition: 0.5s;
+}
+
+.name {
+  text-align: left;
+  font-size: 20px;
+  font-weight: 900;
+  border-bottom: 1px solid rgba(255, 255, 255, 0.6);
+  padding: 20px;
+  transition: 0.5s;
+}
+
+.descriao {
+  padding: 20px;
+}
+
+.descriao p {
+  text-align: left;
+  margin-bottom: 3px;
+  font-size: 20px;
+  font-weight: 500;
+}
